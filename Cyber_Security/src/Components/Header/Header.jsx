@@ -7,7 +7,7 @@ function Header() {
 
 
     const items = [
-        { icon: <CiBellOn />,  color: 'blue', label: 'Files' },
+        { icon: <CiBellOn />,  color: 'pink', label: 'Notifications' },
         
     ];
 
