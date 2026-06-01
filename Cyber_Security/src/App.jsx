@@ -28,7 +28,7 @@ function App() {
       <Panel setToShow={setToShow}></Panel>
       <div><Header cr={currentLang} scur={setCurrentLang} user={user} isReg={isRegistered} setIsReg={setIsRegistered}></Header>
         {isRegistered && <div className='outframe' ><div className='modal'><RegistrationForm setValues={setUserValues} setOp={setIsRegistered} /></div></div>}
-        <Main></Main>
+        <Main toShow={toShow}></Main>
       </div>
     </div>
   </div>);

@@ -201,3 +201,29 @@ input:checked+.slider:before {
   height: 1040px;
   width: 1197px;
 }
+
+.main-1-h2{
+  font-size: 25px;
+}
+
+.main-1-p{
+  width: 547px;
+  line-height: 25px;
+}
+
+.main-img-1{
+  width: 500px;
+  border-radius: 5px;
+}
+
+.main-1-li{
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin-top: 50px;
+}
+
+.mein-2-li{
+  margin-bottom: 10px;
+  font-size: 20px;
+}
