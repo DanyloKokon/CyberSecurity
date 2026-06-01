@@ -1,12 +1,12 @@
 import GlassIcons from "../Bits/GlassIcons/GlassIcons";
 // import { CiSearch } from "react-icons/ci";
-import Account from "./Account";
+import AccountPol from "./AccountPol";
 import Languages from "./Languages";
 
 import { CiBellOn } from "react-icons/ci";
 
 
-function Header( {cr, scur, setIsReg, user }) {
+function HeaderPol( {cr, scur, setIsReg, user }) {
 
 
     const items = [
@@ -23,10 +23,10 @@ function Header( {cr, scur, setIsReg, user }) {
             
             <Languages currentLang={cr} setCurrentLang={scur}></Languages>
             <GlassIcons items={items}></GlassIcons>
-            <Account setIsReg={setIsReg} user={user}></Account>
+            <AccountPol setIsReg={setIsReg} user={user}></AccountPol>
 
         </header>
     );
 }
 
-export default Header;
+export default HeaderPol;
