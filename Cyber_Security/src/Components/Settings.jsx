@@ -20,6 +20,7 @@ function Settings({ spcur, setSpcur, setSet }) {
                     <Switcher funct={setSpcur} current={spcur} />
                 </div>
 
+                <p>Made by: Danylo Kondratenko</p>
             </div>
         </ElectricBorder >
     </div>
