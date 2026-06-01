@@ -43,7 +43,8 @@ body {
 
 .App {
   width: 1440px;
-  height: 1134px;
+  min-height: 1134px;
+  height: 100%;
   background-color: #120F17;
   display: flex;
 }
@@ -143,7 +144,8 @@ input:checked + .slider:before {
 /* ================= Side Panel ================== */
 .panel {
   width: 243px;
-  height: 1133px;
+  min-height: 1133px;
+  height: 100%;
   background-color: #382738;
   padding-left: 20px;
 }
@@ -247,7 +249,8 @@ input:checked + .slider:before {
 
 /* ================= Main Content Area ======================= */
 .main {
-  height: 1040px;
+  min-height: 1040px;
+  height: 100%;
   width: 1197px;
   display: flex;
 }
