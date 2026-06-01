@@ -9,7 +9,7 @@ function Panel({setToShow}) {
         </div>
         <h4 className="panel-h4">Cybersecurity</h4>
         <ul className="panel-list">
-            <li onClick={()=>setToShow(1)} className="pan-list-li"><VscSparkleFilled /> <p>CyberSecurity</p></li>
+            <li onClick={()=>setToShow(1)} className="pan-list-li"><VscSparkleFilled /> <p  >CyberSecurity</p></li>
             <li onClick={()=>setToShow(2)} className="pan-list-li"><VscShield /> <p>How to make sure you are CyberSecured</p></li>
             <li onClick={()=>setToShow(3)} className="pan-list-li"><VscLightbulbEmpty /> <p>Cybersecurity tips</p></li>
         </ul>

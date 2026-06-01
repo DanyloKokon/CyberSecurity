@@ -1,5 +1,5 @@
-import GlassIcons from "../GlassIcons/GlassIcons";
-import { CiSearch } from "react-icons/ci";
+import GlassIcons from "../Bits/GlassIcons/GlassIcons";
+// import { CiSearch } from "react-icons/ci";
 import Account from "./Account";
 import Languages from "./Languages";
 import Switcher from "./Switcher";
@@ -16,9 +16,9 @@ function Header( {cr, scur, setIsReg, user }) {
 
     return (
         <header className="header">
-            <form action="">
-            <CiSearch />
-                <input className="header-inp" placeholder="Search" type="text" name="" id="" />
+            <form className="header-form" action="">
+           
+                <input className="header-inp"   placeholder="Search" type="text" name="" id="" />
             </form>
             <Switcher></Switcher>
             <Languages currentLang={cr} setCurrentLang={scur}></Languages>
