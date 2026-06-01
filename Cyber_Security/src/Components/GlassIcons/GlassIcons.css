@@ -1,8 +1,8 @@
 .icon-btns {
-  display: grid;
-  grid-gap: 5em;
+  /* display: grid;
+  grid-gap: 5em; */
   grid-template-columns: repeat(2, 1fr);
-  margin: auto;
+  /* margin: auto; */
   padding: 3em 0;
   overflow: visible;
 }
@@ -59,8 +59,8 @@
 
 .icon-btn__icon {
   margin: auto;
-  width: 1.5em;
-  height: 1.5em;
+  width: 3.5em;
+  height: 3.5em;
   display: flex;
   align-items: center;
   justify-content: center;

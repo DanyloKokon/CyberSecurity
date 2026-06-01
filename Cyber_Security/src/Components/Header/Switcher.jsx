@@ -1,5 +1,11 @@
 function Switcher() {
-    return ( <div></div> );
+    return (
+    <label className="switch">
+        <input type="checkbox"/>
+            <span className="slider round"></span>
+            
+    </label>
+    );
 }
 
 export default Switcher;
